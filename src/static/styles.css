@@ -50,6 +50,41 @@ body {
   font-size: 0.9rem;
 }
 
+#announcement-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: linear-gradient(90deg, rgba(255,175,0,0.95), rgba(255,111,0,0.95));
+  color: var(--primary-text);
+  padding: 12px 16px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+}
+
+.announcement-banner {
+  flex-wrap: wrap;
+}
+
+.announcement-message {
+  margin: 0;
+  font-weight: 600;
+  line-height: 1.4;
+  flex: 1;
+  min-width: 0;
+}
+
+.announcement-close {
+  border: none;
+  background: transparent;
+  color: inherit;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
 header {
   text-align: center;
   padding: 12px 0;
